@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'ScotchModern';
+    src: url('font/Secession/Revilliom.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+  }
+  .s-main {
+    padding-bottom: 5em;
+  }
+  h1 {
+    font-family: ScotchModern;
+  }
+  .header-h1 {
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .nav-link {
+    color: rgb(136, 136, 136);
+  }
+  .nav-link:hover {
+    color: rgb(233, 233, 233);
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: white;
+  }
+  p {
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .s-main {
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .brandru{
+    margin-left: 7em;
+    font-family: ScotchModern;
+    margin-bottom: 0;
+  }
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: block;
+    }
+    .navbar-brand {
+        font-size: 11px;
+    }
+    .brandru {
+        margin-left: 0;
+    }
+    .s-main {
+        text-align: left;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+      .side-bar-ul {
+        display: none;
+      }
+      .navbar-toggler {
+        margin-right: 1em;
+      }
+  }
+  ul ul {
+    display: none;
+  }
+  .btn {
+    border: 0;
+    color: rgb(210, 210, 210);
+    font-size: 20px;
+    font-family: ScotchModern;
+  }
+  .btn:hover {
+    border: 0;
+    color: white;
+  }
+  .btn :active {
+    color:white
+  }
+  .card-body {
+    border: 0;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+  }
+.cardbodytext {
+    color: rgb(210, 210, 210);
+    font-style: italic;
+}
+.cardbodytext:hover {
+    color:white
+}
+.floatimg {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-up {
+    position: fixed;
+    background-color: #242424;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .btn-up::before {
+    content: "";
+    text-align: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 17V4M3 10l7-7 7 7'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .nav-item {
+    color: rgb(210, 210, 210);
+  }
+  .nav-item.active {
+    color: white;
+  }
